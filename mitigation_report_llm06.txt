@@ -1,0 +1,53 @@
+
+================================================================================
+THREAT MITIGATION REPORT
+================================================================================
+
+Threat ID: LLM06
+Threat Name: Sensitive Information Disclosure
+Category: Data Leakage
+Severity: Critical
+CVSS Score: 9.3
+
+DESCRIPTION:
+Unintended exposure of PII, credentials, or proprietary information
+
+ATTACK VECTORS:
+  - Training data memorization
+  - Prompt extraction
+  - Context leakage
+
+AFFECTED COMPONENTS:
+  - Model memory
+  - Context windows
+  - Output filtering
+
+================================================================================
+MITIGATION STRATEGIES
+================================================================================
+
+PREVENTIVE CONTROLS:
+  1. Implement data loss prevention (DLP)
+  2. Use differential privacy techniques
+  3. Apply output filtering for PII
+  4. Implement context length limits
+  5. Data anonymization in training
+  6. Secure prompt engineering practices
+
+DETECTIVE CONTROLS:
+  1. Monitor for sensitive data patterns
+  2. Regular privacy audits
+  3. Log analysis for leakage indicators
+
+RESPONSIVE CONTROLS:
+  1. Automatic redaction of sensitive info
+  2. User notification procedures
+  3. Breach response protocols
+
+================================================================================
+RISK ASSESSMENT (with 60% control effectiveness)
+================================================================================
+Inherent Risk: 9.0
+Residual Risk: 3.6
+Risk Reduction: 5.4
+Risk Level: Medium

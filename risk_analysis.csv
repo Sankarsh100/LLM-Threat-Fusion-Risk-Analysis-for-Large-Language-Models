@@ -1,0 +1,13 @@
+threat_id,threat_name,base_severity,likelihood,inherent_risk,control_effectiveness,residual_risk,risk_reduction,risk_level
+LLM01,Prompt Injection,10,0.9,9.0,0.5,4.5,4.5,Medium
+LLM02,Insecure Output Handling,8,0.9,7.2,0.5,3.6,3.6,Medium
+LLM03,Training Data Poisoning,10,0.6,6.0,0.5,3.0,3.0,Medium
+LLM04,Model Denial of Service,8,0.9,7.2,0.5,3.6,3.6,Medium
+LLM05,Supply Chain Vulnerabilities,8,0.6,4.8,0.5,2.4,2.4,Low
+LLM06,Sensitive Information Disclosure,10,0.9,9.0,0.5,4.5,4.5,Medium
+LLM07,Insecure Plugin Design,8,0.6,4.8,0.5,2.4,2.4,Low
+LLM08,Excessive Agency,8,0.6,4.8,0.5,2.4,2.4,Low
+LLM09,Overreliance,5,0.9,4.5,0.5,2.25,2.25,Low
+LLM10,Model Theft,8,0.6,4.8,0.5,2.4,2.4,Low
+LLM11,Model Bias and Fairness,8,0.9,7.2,0.5,3.6,3.6,Medium
+LLM12,Jailbreaking,10,0.9,9.0,0.5,4.5,4.5,Medium
